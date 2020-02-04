@@ -14,11 +14,16 @@ header{
 nav{
     background-color: #222222;
     padding: 20px 0 20px 0;
+    margin: auto;
 }
 .body{
     background-color: aliceblue;
-    height: 500px;
+    height: auto;
     padding: 20px;
+}
+img{
+    max-width: 90%;
+    height: auto;
 }
 /*Headers and text*/
 h1{
@@ -33,20 +38,40 @@ h2{
     font-weight: 300;
     margin: 10px;
 }
+h3{
+    color: black;
+    font-family: 'Chivo', sans-serif;
+    font-size: 48pt;
+    font-weight: 700;
+    margin: 40px;
+    line-height: 24px;
+}
 p{
     font-family: 'Chivo', sans-serif;
-    font-size: small;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px;
 }
+.citation{
+    color: grey;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+    margin: 4px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
 nav a{
     color: aliceblue;
     margin: 5%;
     font-family: 'Chivo', sans-serif;
+    line-height: 24px;
 }
 a{
-    color: blue;
+    color: #0000aa;
 }
 a:visited {
-  color: purple;
+  color: #550055;
 }
 /* unvisited link */
 nav a:link {
