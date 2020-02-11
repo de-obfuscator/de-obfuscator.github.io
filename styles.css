@@ -64,6 +64,7 @@ p{
 }
 
 nav a{
+    text-decoration: none;
     color: aliceblue;
     margin: 5%;
     font-family: 'Chivo', sans-serif;
@@ -71,16 +72,40 @@ nav a{
 }
 a{
     color: #0000aa;
+    font-family: 'Chivo', sans-serif;
 }
 a:visited {
   color: #550055;
 }
+
 /* unvisited link */
 nav a:link {
     color: aliceblue;
 }
-  /* selected link */
-nav a:active {
+nav a:visited {
+    color: aliceblue;
+}
+nav a:hover {
     color: grey;
 }
+  /* selected link */
+nav a:active {
+    color: #202020;
+}
+
+/* unvisited link */
+h1 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+h1 a:visited{
+    text-decoration: none;
+    color: aliceblue;
+}
 /**/
+.thumb{
+    width: 300px;
+}
+table, tr{
+    width: 100%;
+}
